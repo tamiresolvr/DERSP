@@ -1,13 +1,3 @@
-"""
-der_automation.py
-Automação do portal DER-SP usando Playwright com ordem estrita de preenchimento:
-1. Pesquisa Placa e AIT e valida imediatamente pop-ups de bloqueio/prazo
-2. Seleção da UF
-3. Preenchimento do Registro (CNH)
-4. Preenchimento da Data de Validade
-5. Cadastro do Condutor
-6. Upload de anexos nos botões 1 a 5
-"""
 
 import os
 import re
