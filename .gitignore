@@ -1,0 +1,13 @@
+# Arquivos com dados confidenciais
+.env
+*.csv
+
+# Arquivos temporários do Python e ambiente virtual
+.venv/
+__pycache__/
+*.pyc
+
+# Arquivos compilados do executável e navegadores
+build/
+dist/
+ms-playwright/
