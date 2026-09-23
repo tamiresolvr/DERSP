@@ -1,14 +1,4 @@
-"""
-main.py - Automação de Indicação de Condutor no DER-SP
-------------------------------------------------------
-1. Busca cards pendentes no Jira (Projeto BOBA).
-2. Localiza as pastas e valida os documentos no Google Drive.
-3. Acessa o portal do DER-SP via Playwright (Placa + AIT).
-4. Preenche os dados do condutor (CNH, Validade CNH, UF) extraídos do Jira.
-5. Anexa a documentação e conclui a indicação.
-6. Atualiza o Jira (comentário, método e status 'Enviada para órgão').
-7. Registra no relatório CSV e envia notificação no Slack.
-"""
+
 import calendar  
 import csv
 from datetime import datetime
