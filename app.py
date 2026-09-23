@@ -1,8 +1,3 @@
-"""
-app.py - Interface Gráfica Moderna para Automação DER-SP
--------------------------------------------------------
-"""
-
 import sys
 import os
 import time
